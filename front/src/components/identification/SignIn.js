@@ -34,18 +34,18 @@ const styles = (theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: 'red',
+    backgroundColor: '#B22222',
   },
   form: {
     width: '100%', // Fix IE 11 issue.
     marginTop: theme.spacing(1),
   },
   text: {
-    color: 'red',
+    color: '#B22222',
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
-    backgroundColor: 'red',
+    backgroundColor: '#B22222',
   },
 });
 

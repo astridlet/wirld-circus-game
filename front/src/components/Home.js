@@ -2,19 +2,7 @@ import React, { Component } from 'react';
 import Game from './Game';
 import axios from "axios";
 import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles(theme => ({
-    root: {
-      flexGrow: 1
-    },
-    paper: {
-      height: 140,
-      width: 100
-    },
-    control: {
-      padding: theme.spacing(2)
-    }
-  }));
+import AppBar from './Navigation/AppBar';
 
 class Home extends Component {
     constructor(props) {
@@ -50,6 +38,7 @@ class Home extends Component {
 
         return (
             <>
+            <AppBar />
             <h1>Sélectionnez un jeu</h1>
             <div className="gameList">
                 {games.map((game,id) => (

@@ -1,12 +1,18 @@
+body {
+  background-color: #f5f5f7;
+}
+
 .App {
   display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .App h1 {
   text-align: center;
+  padding: 40px;
 }
 
 .App-logo {
@@ -62,11 +68,13 @@
 li img {
   height: 200px;
   width: 400px;
+  border-radius: 6px;
 }
 
 .gameList {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  margin: 40px;
 }
